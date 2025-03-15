@@ -1,7 +1,6 @@
 import EmojiButton from "./EmojiButton"
 
 export default function MemoryCard({ handleClick, data, selectedCards, matchedCards }) {
-    // For debugging - log what data is coming in
     console.log("Memory Card Data:", data);
     
     function isCardSelected(index) {
@@ -13,7 +12,6 @@ export default function MemoryCard({ handleClick, data, selectedCards, matchedCa
     }
     
     const allCards = data.map((item, index) => {
-        // Ensure we have all required properties for each card
         const emoji = item.htmlCode || item.unicode || item;
         const name = item.name || `card-${index}`;
         

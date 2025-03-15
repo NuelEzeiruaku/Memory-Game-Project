@@ -4,7 +4,7 @@ import MemoryCard from '/components/MemoryCard'
 import AssistiveTechInfo from '/components/AssistiveTechInfo'
 import GameOver from '/components/GameOver'
 import ErrorCard from '/components/ErrorCard'
-import emojiData from '/components/emojiData' // Import our local emoji data
+import emojiData from '/components/emojiData' 
 
 export default function App() {
     const initialFormData = {category: "animals-and-nature", number: 10}
@@ -38,7 +38,6 @@ export default function App() {
         e.preventDefault()
         
         try {
-            // Use our local data instead of fetching from API
             const data = emojiData[formData.category] || [];
             
             if (data.length === 0) {

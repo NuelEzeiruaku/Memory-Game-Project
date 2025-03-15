@@ -8,7 +8,6 @@ export default function EmojiButton({
   isSelected,
   isMatched
 }) {
-  // Handle different possible emoji formats
   const displayEmoji = typeof emoji === 'object' 
     ? (emoji.unicode || decode(emoji.htmlCode || "")) 
     : decode(emoji);

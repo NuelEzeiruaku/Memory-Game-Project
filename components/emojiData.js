@@ -1,4 +1,3 @@
-// Enhanced emoji data to support larger games
 const emojiData = {
   "animals-and-nature": [
     { name: "dog", htmlCode: "&#128054;", unicode: "🐶" },
