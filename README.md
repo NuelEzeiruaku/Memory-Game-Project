@@ -2,7 +2,7 @@
 
 A fun, interactive memory card game built with React where players match pairs of cards with the same emoji.
 
-![Memory Game Screenshot](https://via.placeholder.com/800x400?text=Memory+Game+Screenshot)
+![Memory Game Screenshot]([https://via.placeholder.com/800x400?text=Memory+Game+Screenshot](https://github.com/NuelEzeiruaku/Memory-Game-Project/blob/main/memorygame.png?raw=true))
 
 ## ✨ Features
 
