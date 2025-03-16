@@ -14,7 +14,7 @@ A fun, interactive memory card game built with React where players match pairs o
 
 ## 🚀 Live Demo
 
-[Play the Memory Game](https://your-memory-game-url.com)
+[Play the Memory Game]([https://your-memory-game-url.com](https://nuelsmemorygame.netlify.app/))
 
 ## 🛠️ Technologies Used
 
