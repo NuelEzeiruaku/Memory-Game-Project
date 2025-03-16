@@ -2,7 +2,7 @@
 
 A fun, interactive memory card game built with React where players match pairs of cards with the same emoji.
 
-[![Memory Game Screenshot]([https://via.placeholder.com/800x400?text=Memory+Game+Screenshot](https://github.com/NuelEzeiruaku/Memory-Game-Project/blob/main/memorygame.png?raw=true))](https://github.com/NuelEzeiruaku/Memory-Game-Project/blob/main/memorygame.png?raw=true)
+![Memory Game Screenshot](https://github.com/NuelEzeiruaku/Memory-Game-Project/blob/main/memorygame.png?raw=true)
 
 ## ✨ Features
 
@@ -42,7 +42,6 @@ A fun, interactive memory card game built with React where players match pairs o
 2. Install dependencies:
    ```bash
    npm install
-   npm install html-entities
    ```
 
 3. Start the development server:
@@ -92,12 +91,28 @@ The game follows these key steps:
 5. The game tracks selected and matched cards
 6. When all pairs are matched, the game displays a victory screen
 
+## 🎨 Styling
+
+The game uses a clean, modern design with:
+- Deep blue background (`#082f49`)
+- Light blue accents (`#f0f9ff`)
+- Yellow highlights (`#fde68a`)
+- Smooth animations for card flipping
+
+## 🧠 Future Enhancements
+
+- Timer and score tracking
+- Local storage to save high scores
+- More emoji categories
+- Sound effects
+- Difficulty levels with time constraints
+
 ## 📝 License
 
 [MIT](LICENSE)
 
 ## 👨‍💻 Author
 
-Created by Nuel Ezeiruaku
+Created by [Your Name]
 
 Feel free to contribute to this project by opening issues or submitting pull requests!
